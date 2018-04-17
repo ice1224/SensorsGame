@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sensors</string>
+    <string name="level">LEVEL </string>
+    <string name="round">ROUND </string>
+    <string name="toast_set_phone_message">Set your phone different than</string>
+    <string name="result_label">RESULT</string>
+    <string name="winning_game">YOU WON THE GAME</string>
+    <string name="winning_round">YOU WON</string>
+    <string name="losing_round">YOU LOST</string>
+    <string name="sound">Sound </string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="normal">NORMAL</string>
+    <string name="upside_down">UPSIDE DOWN</string>
+    <string name="on_right_side">ON RIGHT SIDE</string>
+    <string name="on_left_side">ON LEFT SIDE</string>
+    <string name="screen_up">SCREEN UP</string>
+    <string name="screen_down">SCREEN DOWN</string>
+
+
+    <string name="how_to_play">In each round game gives you few steps.\nYou have to remember them,
+        because after clicking START button, steps disappear.\nThen you have to repeat the steps by setting your device in the right positions\n\nGOOD LUCK!</string>
+
+</resources>

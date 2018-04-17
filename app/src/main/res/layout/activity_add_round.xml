@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.lab3kobiela.sensors.AddRoundActivity">
+
+        <Button
+            android:id="@+id/bOnLeftSide"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="ON LEFT SIDE"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+        <Button
+            android:id="@+id/bOnRightSide"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="ON RIGHT SIDE"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/bOnLeftSide"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+        <Button
+            android:id="@+id/bNormal"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="NORMAL"
+            android:layout_toLeftOf="@id/bOnLeftSide"
+            android:layout_toStartOf="@id/bOnLeftSide"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"/>
+
+        <Button
+            android:id="@+id/bUpsideDown"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="UPSIDE DOWN"
+            android:layout_toLeftOf="@id/bOnRightSide"
+            android:layout_toStartOf="@id/bOnRightSide"
+            android:layout_below="@id/bNormal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"/>
+
+
+        <Button
+            android:id="@+id/bScreenUp"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="SCREEN UP"
+            android:layout_toRightOf="@id/bOnLeftSide"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"/>
+
+        <Button
+            android:id="@+id/bScreenDown"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="SCREEN DOWN"
+            android:layout_below="@id/bScreenUp"
+            android:layout_toRightOf="@id/bOnRightSide"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:layout_below="@+id/bOnRightSide"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/bRemove"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="REMOVE"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvResult"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"/>
+
+        <Button
+            android:id="@+id/bAccept"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ACCEPT"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/bRemove"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"/>
+
+        <TextView
+            android:id="@+id/tvChecker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:layout_below="@+id/bAccept"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+</ScrollView>
